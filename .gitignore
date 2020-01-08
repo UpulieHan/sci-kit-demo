@@ -1,0 +1,21 @@
+.idea/
+
+!venv/
+venv/*
+!venv/share/
+venv/share/*
+!venv/share/doc/
+venv/share/doc/*
+!venv/share/doc/networkx-2.5/
+venv/share/doc/networkx-2.5/*
+!venv/share/doc/networkx-2.5/requirements.txt
+
+#A sample gitignore test to only include text.txt file
+#and nothing else inside it's great grandparent folder
+!A/
+A/*
+!A/B/
+A/B/*
+!A/B/C/
+A/B/C/*
+!A/B/C/text.txt
