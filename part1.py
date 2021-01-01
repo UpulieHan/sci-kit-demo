@@ -22,7 +22,7 @@
 from skimage import data, io
 
 #scikit includes a file with some preloaded images in them(inside the 'data' module)
-image = data.coffee()
+image = data.gravel()
 #imshow() displays an image
 io.imshow(image)
 #show() displays the pending images queued by imshow(used when displaying images from non-interactive shells)
