@@ -10,7 +10,7 @@ from skimage import data, io
 image = data.chelsea()
 
 
-#R, G, B
+#[height, width, channel]
 image[:, :, 0] = 0 #blue
 # image[:, :, 1] = 0 #red
 # image[:, :, 2] = 0 #green
